@@ -83,11 +83,14 @@
 // pow(3, 2) = 3 * 3 = 9
 
 
-function pow(a,b){
-    let data = a*(a**b)
-    console.log(data);
-}
-pow(1, 100)
+// function pow(a,b){
+//     let data = a*(a**b)
+//     console.log(data);
+// }
+// pow(1, 100)
+
+
+
 
 
 
