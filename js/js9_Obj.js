@@ -186,3 +186,85 @@
 //   let user = makeUser();
   
 //   alert( user.ref().name ); // What's the result?
+
+
+
+
+// let user = {
+//     name: "John",
+//     age: 30
+//   };
+  
+//   let clone = {}; // the new empty object
+  
+// for(let keys in user){
+//     console.log(clone[keys] = user[keys]);
+// }
+
+
+// clone.name = "Pete";
+
+
+
+
+
+// let user = { name: "John" };
+
+// let permissions1 = { canView: true };
+// let permissions2 = { canEdit: true };
+
+// // copies all properties from permissions1 and permissions2 into user
+// Object.assign(user, permissions1, permissions2);
+
+// // now user = { name: "John", canView: true, canEdit: true }
+// alert(user.name); // John
+// alert(user.canView); // true
+// alert(user.canEdit); // true
+
+
+
+// Create a constructor function Calculator that creates objects with 3 methods:
+
+// read() prompts for two values and saves them as object properties with names a and b respectively.
+// sum() returns the sum of these properties.
+// mul() returns the multiplication product of these properties.
+// For instance:
+
+// let calculator = new Calculator();
+// calculator.read();
+
+// alert( "Sum=" + calculator.sum() );
+// alert( "Mul=" + calculator.mul() );
+
+
+// function calculator(a, b) {
+//     this.a = a;
+//     this.b = b
+
+//     this.sum = function sum(){
+//         console.log(this.a + this.b);
+//     }
+//     this.mul = function mul(){
+//         console.log(this.a * this.b);
+//     }
+// }
+
+// let data = new calculator(1,2)
+// data.sum()
+// data.mul()
+
+
+
+// function Accumulator(a){
+//     this.a = a
+
+//     this.read = function(){
+//         this.value = prompt('add data', 0)
+        
+//     }
+// }
+
+
+// let aumulator = new Accumulator(1)
+// aumulator.read()
+// console.log(aumulator.value);
