@@ -1,0 +1,29 @@
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   flex-direction: column;
+}
+
+.uldata{
+    padding: 10px;
+    
+}
+
+.lidata{
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+    background-color: lightgray;
+}
+
+.lidata li{
+   
+    list-style: none;
+    background-color: lightgray;
+    color: brown;
+}
+.li_a{
+    text-decoration: none;
+}

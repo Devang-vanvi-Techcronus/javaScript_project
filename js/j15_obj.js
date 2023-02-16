@@ -51,34 +51,56 @@
 
 
 
-function about(hobby){
-    console.log(this.name, this.age, hobby)
-}
+// function about(hobby){
+//     console.log(this.name, this.age, hobby)
+// }
 
-const person1 ={
-    name:'dev',
-    age:22,
-}
+// const person1 ={
+//     name:'dev',
+//     age:22,
+// }
 
-const person2 ={
-    name:'vik',
-    age:23,
-}
-
-
-about.call(person1,'guitar')
-
-// and if i want to use apply instead of call then other things are in array
-about.apply(person1,['guitar'])
-
-// and if i want to use bind 
-const data = about.bind(person1,['guitar'])
-data()
+// const person2 ={
+//     name:'vik',
+//     age:23,
+// }
 
 
+// about.call(person1,'guitar')
+
+// // and if i want to use apply instead of call then other things are in array
+// about.apply(person1,['guitar'])
+
+// // and if i want to use bind 
+// const data = about.bind(person1,['guitar'])
+// data()
+
+//---------------------------------------------------------------
+
+// let obj1 = {
+//     key1 : 'value1',
+//     key2 : 'value2'
+// }
+
+// let obj2 = {
+//     key3 : 'value3'
+// }
+
+// console.log(obj2.key3);
+// console.log(obj2.key2); //undefine now
+
+// -----------------------------------------------------------
+// let obj1 = {
+//     key1 : 'value1',
+//     key2 : 'value2'
+// }
+
+// let obj2 = Object.create(obj1)
+// obj2.key3 = 'value3'
 
 
-
+// console.log(obj2.key3);
+// console.log(obj2.key2);  // value2
 
 
 
