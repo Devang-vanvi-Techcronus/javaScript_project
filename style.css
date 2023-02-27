@@ -27,3 +27,105 @@
 .li_a{
     text-decoration: none;
 }
+
+
+.clock{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.clock1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.c1{
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+.f-13{
+    font-size: 40px;
+}
+#p{
+    font-size: 20px;
+    text-align: center;
+}
+.t-center{
+    text-align: center;
+}
+
+
+/* music-------------------------------------------------- */
+
+
+.music{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btn-music{
+
+    font-size: 30px;
+    margin: 10px;
+    padding: 20pxd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

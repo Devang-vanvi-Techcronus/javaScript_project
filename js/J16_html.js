@@ -10,16 +10,14 @@
 
 
 const uldata = document.querySelector('.uldata')
-console.log(uldata);
-const listdata = document.querySelector('.lidata')
-console.log(listdata);
 
+const listdata = document.querySelector('.lidata')
 
 const listItem = document.createElement('li')
-console.log(listItem);
+
 
 const inputData = document.querySelector("input[type='text']")
-console.log(inputData);
+
 
 const form = document.querySelector('.form-todo')
 
@@ -32,7 +30,7 @@ form.addEventListener('submit', (e) => {
             <button type="button" class="done" >Done</button>
             <button type="button" class="remove">Remove</button>`
     listItem.innerHTML = newInnerLi
-    console.log(listItem);
+    // console.log(listItem);
     listdata.append(listItem)
     inputData.value = ''
 })
@@ -42,12 +40,12 @@ listdata.addEventListener('click', (e) => {
     console.log(e.target.classList);
     if (e.target.classList.contains('done')) {
         let lispan = e.target.previousElementSibling
-        console.log(lispan);
+        // console.log(lispan);
         lispan.style.textDecoration = "line-through"
     }
     if (e.target.classList.contains('remove')) {
         let lispan = e.target.parentNode
-        console.log(lispan);
+        // console.log(lispan);
         lispan.remove()
     }
 

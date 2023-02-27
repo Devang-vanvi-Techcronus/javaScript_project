@@ -67,6 +67,7 @@
 
 
 // about.call(person1,'guitar')
+// about.call(person1)
 
 // // and if i want to use apply instead of call then other things are in array
 // about.apply(person1,['guitar'])
@@ -88,6 +89,8 @@
 
 // console.log(obj2.key3);
 // console.log(obj2.key2); //undefine now
+
+
 
 // -----------------------------------------------------------
 // let obj1 = {
